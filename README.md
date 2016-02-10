@@ -1,6 +1,9 @@
 # eg_mnist
 Trying to find best general-algorithm solution to the MNIST Problem to then expand to bigger ones (maybe one day out of the image-analysis problems).
 
+
+For using your GPU, write into your shell: export THEANO_FLAGS=floatX=float32,device=gpu
+
 I used Lasagne Convolutional Neural Network, 
 you can run my algorithm using python mnist.py <proportion of data to use>
 <proportion of data to use> is optionnal and should vary between 0 and 1, the default value being 1
